@@ -1,0 +1,7 @@
+Timestamp,LocalAddress,LocalPort,RemoteAddress,RemotePort,State,ProcessId,ProcessName,AnomalyScore,ReviewStatus,Interpretation
+2026-01-01 10:00:00,DEMO-DEVICE,443,DEMO-ENDPOINT-1,443,ESTABLISHED,1001,demo_browser,-0.1,Baseline,Synthetic baseline example
+2026-01-01 10:00:10,DEMO-DEVICE,443,DEMO-ENDPOINT-2,443,ESTABLISHED,1002,demo_browser,-0.08,Baseline,Synthetic baseline example
+2026-01-01 10:00:20,DEMO-DEVICE,80,DEMO-ENDPOINT-1,80,TIME_WAIT,1003,demo_web,-0.31,Review,Synthetic unusual-pattern example
+2026-01-01 10:00:30,DEMO-DEVICE,53,DEMO-ENDPOINT-3,53,ESTABLISHED,1004,demo_dns,-0.05,Baseline,Synthetic baseline example
+2026-01-01 10:00:40,DEMO-DEVICE,8080,DEMO-ENDPOINT-4,8080,CLOSE_WAIT,1005,demo_service,-0.42,Review,Synthetic unusual-pattern example
+2026-01-01 10:00:50,DEMO-DEVICE,443,DEMO-ENDPOINT-2,443,ESTABLISHED,1006,demo_browser,-0.12,Baseline,Synthetic baseline example
